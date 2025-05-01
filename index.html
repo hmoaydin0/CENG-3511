@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Route Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <h1>Smart Route Finder</h1>
+  <div id="map"></div>
+  <p id="info">Seçim yapmak için iki noktaya tıklayın.</p>
+  <button onclick="resetMap()" style="margin: 10px; padding: 10px;">Yeni Seçim Yap</button>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="dijkstra.js"></script>
+  <script src="astar.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
